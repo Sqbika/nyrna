@@ -82,7 +82,7 @@ class LogPage extends StatelessWidget {
                     vertical: 15,
                   ),
                   child: Scrollbar(
-                    thumbVisibility: true,
+                    trackVisibility: true,
                     child: SingleChildScrollView(
                       child: BlocBuilder<LogCubit, LogState>(
                         builder: (context, state) {

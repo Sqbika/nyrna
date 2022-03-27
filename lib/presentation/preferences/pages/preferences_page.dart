@@ -14,7 +14,7 @@ class PreferencesPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Preferences')),
       body: Scrollbar(
-        thumbVisibility: true,
+        trackVisibility: true,
         child: ListView(
           padding: const EdgeInsets.symmetric(
             vertical: 30,
